@@ -1,0 +1,19 @@
+{
+  "name": "homeoscar",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto a production",
+  "main": "js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Oscar Barajas <oscar@dragons.mx>",
+  "dependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^3.18.4"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home Oscar 2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>¡Hola Mundo Cruel!</h1>
+  </header>
+  <section class="contact">
+    <form action="" id="contactForm">
+
+    <input type="text" id="name" placeholder="Nombre">
+    <input type="email" id="email" placeholder="Correo Electronico">
+    <input type="number" id="phone" placeholder="Telefono">
+    <select id="city">
+      <option value="Mexico">Mexico</option>
+      <option value="Guadalajara">Guadalajara</option>
+      <option value="Monterrey">Monterrey</option>
+    </select>
+    <textarea id="message" rows="3"></textarea>
+    <button type="submit">Contactar</button>
+  </form>
+  </section>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBMCEZffGxn6O0Fxi2GGfT68SiWWALijak",
+    authDomain: "web-page-87439.firebaseapp.com",
+    databaseURL: "https://web-page-87439.firebaseio.com",
+    projectId: "web-page-87439",
+    storageBucket: "web-page-87439.appspot.com",
+    messagingSenderId: "177147372962"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/index.js"></script>
+</html>
